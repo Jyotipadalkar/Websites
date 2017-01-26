@@ -1,0 +1,52 @@
+body {
+	font-family: "Open Sans";
+	margin: 40px;
+	color: #550000;
+}
+
+nav {
+	text-align: right;
+}
+
+nav li {
+	display: inline;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 5em;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 20px;
+	margin: 5px;
+}
+
+p strong {
+	font-size: 1.2em;
+}
+
+.center-div {
+	text-align: center;
+}
+
+.todays-website {
+	margin: 20px;
+}
+.todays-website a {
+	font-size: 25px;
+}
+.todays-website h2 {
+	margin: 5px;
+}
+
+
+.all-websites {
+	font-size: 17px;
+}
+
+.all-websites ol {
+	list-style-type: none;
+	padding-left: 0px;
+}
