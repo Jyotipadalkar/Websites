@@ -1,0 +1,19 @@
+body {
+	font-family: "Open Sans";
+	margin: 40px;
+	color: #550000;
+	font-size: 14px;
+}
+
+nav {
+	text-align: right;
+}
+
+nav li {
+	display: inline;
+	padding: 10px;
+}
+
+.center-div {
+	text-align: center;
+}

@@ -1,0 +1,26 @@
+.sidebar-left {
+	width: 65%;
+	float: left;
+}
+
+.sidebar-right {
+	width: 30%;
+	float: right;
+}
+
+.contact-details {
+	padding: 0px;
+}
+
+.contact-details li {
+	display: inline;
+	margin-right: 5px;
+}
+
+li {
+	padding: 0 0  3px 0;
+}
+
+h1 {
+	font-size: 40px;
+}
