@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Jyoti Bhogade | Contact</title>
-		<link rel="stylesheet" type="text/css" href="index.css">
+		<title>Jyoti Bhogade | contact</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/base.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/contact.css">
 	</head>
-	<body >
-		<div class="info-name">
-			<label>UserName</label><br>
-			<input type="text" placeholder="Enter your name">
-		</div> 
-		<div class="info-mail">
-			<label>Email Id</label><br>
-			<input type="text" placeholder="Enter your email id">
-		</div>
-		<div class="info-tel">
-			<label>PhoneNumber</label><br>
-			<input type="tel" placeholder="Enter number">
-		</div>
-		<div>
-			<label for="message">Send Message</label><br>
-			<textarea name="message"></textarea>
-		</div>
-		<div class="submit-button">
-			<input type="button" value="Submit">
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html" title="Home">Home</a></li>
+				<li><a href="about.html" title="About">About</a></li>
+				<li><a href="https://github.com/jyotipadalkar" title="Github">Github</a></li>
+			</ul>
+		</nav>
+		<div class=	"container">
+			<form class="contact-form" action="contact.php" method="POST">
+				<label>
+					Name
+					<input type="text" name="name">
+				</label>
+				<label>
+					Email
+					<input type="text" name="email">
+				</label>
+				<label>
+					Message
+					<textarea name="message"></textarea>
+				</label>
+				<input type="submit" name="submit">
+			</form>
 		</div>
 	</body>
 </html>
